@@ -229,7 +229,7 @@ export function ListingTable({ listings }: ListingTableProps) {
               </div>
               <div>
                 <h3 className="font-semibold">Price per Day</h3>
-                <p>${selectedListing.pricePerDay}</p>
+                <p>₹{selectedListing.pricePerDay}</p>
               </div>
               <div>
                 <h3 className="font-semibold">Location</h3>
